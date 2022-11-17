@@ -65,6 +65,8 @@ p, ul{
 /* header */
 .header{
   border-bottom: 1px solid #ECECEC;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-container{
   display: flex;
@@ -89,7 +91,7 @@ p, ul{
   display: flex;
   align-items: center;
 }
-.nav-list .item:first-child{
+.nav-list {
   margin-left: 93px;
 }
 .nav-list .item:not(:last-child){
@@ -119,7 +121,6 @@ p, ul{
 .hero {
   background-color: #2F303A;
   text-align: center;
-  margin-bottom: 94px; 
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -164,7 +165,8 @@ p, ul{
   margin-right: 30px;
 }
 .properties{
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .properties-title {
   margin-bottom: 10px;
@@ -189,7 +191,7 @@ p, ul{
   margin-right: 30px;
 }
 .work{
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .work-title{
   margin-bottom: 50px;
@@ -223,15 +225,17 @@ p, ul{
   line-height: 1.18;    
   letter-spacing: 0.03em;
   color: var(--main-color);
-  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .team-position {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--second-color);
-  margin-top: 10px;
-  margin-bottom: 30px;
+}
+.member-description{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* footer */
@@ -271,8 +275,8 @@ p, ul{
 
 /* main portfolio.html */
 .examples-section{
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .filter{
   background-color: #F5F4FA;
@@ -284,6 +288,7 @@ p, ul{
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  padding: 6px 22px;
 }
 .filter:hover, 
 .filter:focus{
@@ -294,7 +299,7 @@ p, ul{
 .filter-list{
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .filter-list .item:not(:last-child){
   margin-right: 8px;
@@ -308,14 +313,13 @@ p, ul{
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
-  padding: 20px 24px 4px 24px;
+  margin-bottom: 4px;
 }
 .example-type{
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-color);
-  padding: 0px 24px 20px 24px;
 }
 .example{
   width: calc((100% - 60px) / 3);
@@ -329,4 +333,5 @@ p, ul{
 }
 .example-border{
   border: 1px solid #EEEEEE;
+  padding: 20px 24px;
 }
